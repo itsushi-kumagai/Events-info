@@ -14,20 +14,28 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2 class="logo">Dark Code</h2>
+            <a href=""><h2 class="logo">Dark Code</h2></a>
                 <input type="checkbox" id="chk">
                 <label for="chk" class="show-menu-btn">
                     <i class="fas fa-bars" style="color: white;"></i>
                 </label>
             <form action="#" class="search">
                 <input type="text" class="search_text" placeholder="Enter the key words !">
-                <i class="fas fa-calendar-alt"></i>
+                <select name="select" id="select" class="Genre">
+                        <option value="" hidden">genre</option>
+                        <option value="1">bar</option>
+                        <option value="2">pub</option>
+                        <option value="3">club</option>
+                </select>
                 <input type="date" class="search_date">
-                <button btn="" class="search-btn">search</button>
+                        <a href="#"><i class="fas fa-search search_icon"></i></a>
+
+                    
+
+                 
             
             <ul class="menu">
                 <div class="menu-list">
-                    <a href="#"><i class="fa fa-home" ></i></a>
                     <a href="#">Register</a>
                     <a href="#">Events</a>
                     <a href="#">Login</a>
@@ -49,7 +57,7 @@
                 
                     <div class="pic">
                         <div class="pic-event">
-                        <img src="../image/image4.jpg" alt="" width="650px">
+                        <img src="../image/image4.jpg" alt="" width="750px">
                     </div>
                 <div class="pic-contents">
                     <div class="title">
@@ -57,14 +65,14 @@
                             <div class="pic-map">
                                     <p class="genre">Genre : Free drink</p>
                                 <div class="tag-group">
-                                    <p class="tags">Tags :</p><br>
+                                    <p class="tags">Tags:</p><br>
                                     <button class="tag1">bar</button>
                                     <button class="tag2">dance</button>
                                 </div>
                             </div>
                     </div>
                     <div class="link">
-                        <i class="fas fa-link" style="color: white;"></i>
+                        <i class="fas fa-link fa-2x" style="color: white;"></i>
                         <i class="fas fa-heart fa-2x" style="color: #FF0014"></i>
                     </div>
                 </div>
@@ -179,43 +187,115 @@
             
                 <section>
                         <div class="glider-contain multiple">
-                                <h1>Saved Events</h1>
-                                <button class="glider-prev">
-                                        <i class="fas fa-chevron-left"></i>
-                                </button>
-                    <div class="glider"><!--card-->
-                        <div class="card-wrapper">
-
-
-
-
-
-                                <div class="card">
-                                    <img src="../image/image2.jpg" alt="" width="300px">
-                                    <div class="event-title">
-                                        <div class="event-name">
-                                            live in Odaiba
+                            <h1>Saved Events</h1>
+                            <button class="glider-prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>               
+                            <div class="glider"><!--card-->
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <div>
+                                            <img src="../image/image2.jpg" alt="" width="300px">
                                         </div>
-                                        <div class="event-date">
-                                            2019.8.23
+                                        <div class="event-title">
+                                            <div>
+                                                <div class="event-name">
+                                                live in Odaiba
+                                                </div>
+                                                <div class="event-date">
+                                                2019.8.23
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-heart small" style="color: #FF0014"></i>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="event-info">
+                                        <div class="event-info">
                                             Lorem ipsum dolor sit amet <br>
                                             in laboriosam architecto beatae
-                                    </div>
-                                    <div class="button">
-                                        <button class="seemore">See more</button>
-                                        <button class="delete">Delete</button>
+                                            <a href="#" style="color: white">...see more</a>
+                                        </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
+                                <div class="card-wrapper">
+                                        <div class="card">
+                                            <div>
+                                                <img src="../image/image2.jpg" alt="" width="300px">
+                                            </div>
+                                            <div class="event-title">
+                                                <div>
+                                                    <div class="event-name">
+                                                    live in Odaiba
+                                                    </div>
+                                                    <div class="event-date">
+                                                    2019.8.23
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fas fa-heart small" style="color: #FF0014"></i>
+                                                </div>
+                                            </div>
+                                            <div class="event-info">
+                                                Lorem ipsum dolor sit amet <br>
+                                                in laboriosam architecto beatae
+                                                <a href="#" style="color: white">...see more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-wrapper">
+                                            <div class="card">
+                                                <div>
+                                                    <img src="../image/image2.jpg" alt="" width="300px">
+                                                </div>
+                                                <div class="event-title">
+                                                    <div>
+                                                        <div class="event-name">
+                                                        live in Odaiba
+                                                        </div>
+                                                        <div class="event-date">
+                                                        2019.8.23
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <i class="fas fa-heart small" style="color: #FF0014 "></i>
+                                                    </div>
+                                                </div>
+                                                <div class="event-info">
+                                                    Lorem ipsum dolor sit amet <br>
+                                                    in laboriosam architecto beatae
+                                                    <a href="#" style="color: white">...see more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-wrapper">
+                                                <div class="card">
+                                                    <div>
+                                                        <img src="../image/image2.jpg" alt="" width="300px">
+                                                    </div>
+                                                    <div class="event-title">
+                                                        <div>
+                                                            <div class="event-name">
+                                                            live in Odaiba
+                                                            </div>
+                                                            <div class="event-date">
+                                                            2019.8.23
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fas fa-heart small" style="color: #FF0014"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="event-info">
+                                                        Lorem ipsum dolor sit amet <br>
+                                                        in laboriosam architecto beatae
+                                                        <a href="#" style="color: white">...see more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                        </div>
+                 </section>
+                 
                                 
         </div>
         </form>

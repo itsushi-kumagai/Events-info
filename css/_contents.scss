@@ -19,7 +19,13 @@
     color: white;
     display: flex;
 }
+.event-title{
+    display: flex;
 
+    i{
+        margin-left: 8.5rem;
+    }
+}
 .title {
     color: white;
     margin-left: 20px;
