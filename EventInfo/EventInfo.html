@@ -12,53 +12,142 @@
     <title>EventInfo</title>
 </head>
 <body>
+
     <div class="container">
+        
         <div class="header">
-            <a href=""><h2 class="logo">Dark Code</h2></a>
-                <input type="checkbox" id="chk">
+            <div class="header-sp">               
                 <label for="chk" class="show-menu-btn">
                     <i class="fas fa-bars" style="color: white;"></i>
                 </label>
-            <form action="#" class="search">
-                <input type="text" class="search_text" placeholder="Enter the key words !">
-                <select name="select" id="select" class="Genre">
+                <a href="#"><h2 class="logo">Dark Code</h2></a>
+                <button type="submit" class="search-btn-sp">
+                    <i class="fas fa-search "></i>
+                </button>
+
+            </div>
+            
+                <div class="head">
+                    <ul class="menu">
+                        <div class="menu-list">
+                            <div class="login">
+                                    <a href="#">Events</a>
+                                    <a href="#">log out</a>
+                                    <a href="#"><img src="../people/person3.jpg" alt="user-purofile"></a>
+                            </div>
+                        </div>
+                       
+                    </ul> 
+                    <label for="chk" class="hide-menu-btn">
+                            <i class="fas fa-times" style="color: white;"></i>
+                        </label>
+                    <input type="checkbox" id="chk">
+                </div>
+            </div>
+        
+
+            <div class="header2">
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <label for="openSidebarMenu" class="sidebarIconToggle">
+                      <div class="spinner diagonal part-1"></div>
+                      <div class="spinner horizontal"></div>
+                      <div class="spinner diagonal part-2"></div>
+                    </label>
+                  <div id="sidebarMenu">
+                    <ul class="sidebarMenuInner">
+                      <li><a href="#" target="_blank">Home</a></li>
+                      <li><a href="#" target="_blank">Events</a></li>
+                      <li><a href="#" target="_blank">Profile</a></li>
+                      <li><a href="#" target="_blank">Log out</a></li>
+                    </ul>
+                  </div>
+                
+                
+                
+                
+                  <input type="checkbox" class="openSidebarSearch" id="openSidebarSearch">
+                  <label for="openSidebarSearch" class="sidebarIconSearch">
+                    <i class="fas fa-search search_icon"></i>
+                  </label>
+                
+                        <div id="sidebarSearch">
+                          <div class="search-erea">
+                            <div class="search-title">Enter the name of event</div>
+                              <input type="text" class="search_text">
+                              <div class="search-title">Choose tags</div>
+                              <ul class="tag-list">
+                                <li>Tag</li>
+                                <li>Tag</li>
+                                <li>Tag</li>
+                                <li>Tag</li>
+                              </ul>
+                              <ul class="tag-list">
+                                <li>Tag</li>
+                                <li>Tag</li>
+                                <li>Tag</li>
+                                <li>Tag</li>
+                              </ul> 
+                            </div>
+                
+                            <div class="search-erea">
+                              <div class="search-title">Categorys</div>
+                              <div class="Category-list">
+                                <dl class="Category">
+                                  <dt><img src="../image/martini.png" alt="bar-img"></dt>
+                                  <dd>bar</dd>
+                                </dl>
+                                <dl class="Category">
+                                  <dt><img src="../image/beer.png" alt="pub-img"></dt>
+                                  <dd>pub</dd>
+                                </dl>
+                                <dl class="Category">
+                                  <dt><img src="../image/dj.png" alt="club-img"></dt>
+                                  <dd>club</dd>
+                                </dl>
+                              </div>
+                            </div>
+                
+                            <div class="search-erea">
+                              <div class="search-title">Day</div>
+                              <input type="text" class="Day-box">
+                            </div>
+                
+                        </div>
+                
+                      </div>
+                
+        
+        <div class="seach-erea">
+                <form action="#" class="search">
+                    <input type="text" class="search_text" placeholder="Enter the key words !">
+                    <select name="select" id="select" class="Genre">
                         <option value="" hidden">genre</option>
                         <option value="1">bar</option>
                         <option value="2">pub</option>
                         <option value="3">club</option>
-                </select>
-                <input type="date" class="search_date">
-                        <a href="#"><i class="fas fa-search search_icon"></i></a>
+                    </select>
+                    <input type="date" class="search_date">
+                <button type="submit" class="test">
+                    <i class="fas fa-search "></i>
+                </button>
+                   <!---</i>--->      
+                </form>                    
 
-                    
-
-                 
-            
-            <ul class="menu">
-                <div class="menu-list">
-                    <a href="#">Register</a>
-                    <a href="#">Events</a>
-                    <a href="#">Login</a>
-                    <label for="chk" class="hide-menu-btn">
-                        <i class="fas fa-times" style="color: white;"></i>
-                    </label>
-                </div>
-            </ul>
-        </div>
+            </div>
     
 
 
 
 
             <div class="content">
-                <div class="left"></div>
+    
                     
             <div class="info">
                 
                     <div class="pic">
                         <div class="pic-event">
                         <img src="../image/image4.jpg" alt="" width="750px">
-                    </div>
+                    
                 <div class="pic-contents">
                     <div class="title">
                         <span class="event-title">Live In Tokyo</span>
@@ -76,6 +165,7 @@
                         <i class="fas fa-heart fa-2x" style="color: #FF0014"></i>
                     </div>
                 </div>
+            </div>
                     
                 <div class="information">
                     <div class="about">

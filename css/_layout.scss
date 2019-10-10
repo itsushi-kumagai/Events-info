@@ -1,21 +1,24 @@
 .header {
     height: 50px;
     background: $menuColor;
-    padding: 0 20px;
     color: white;
     position: sticky;
     top: 0;
-    z-index: 1000;
 }
 
 
+
+.seach-erea {
+    display: flex;
+    justify-content: center;
+}
+
 .content {
     height: 220vh;
-    display: flex;
-    margin-left: 17rem;
     color: white;
     overflow: hidden;
-    
+    justify-content: center;
+    margin: 100px auto;
 
     
 }
@@ -24,11 +27,10 @@
     display: flex;
 }
 
-
-.info {
-    margin-top: 28px;
-    margin-right: 12rem;
+.contentarea{
+    margin: 0 auto;
 }
+
 
 .detail {
     width: 47rem;
@@ -60,3 +62,4 @@
     height: 30vh;
     background-color: $menuColor;
 }
+
